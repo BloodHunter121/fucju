@@ -4,27 +4,27 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Home
+      Вход
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
     <ion-card class="welcome-card">
-      <ion-img src="/assets/logo.svg" width="200" height="200"></ion-img>
+      <ion-img src="/assets/logo.svg"></ion-img>
       <ion-card-header>
         <ion-card-subtitle></ion-card-subtitle>
         <ion-card-title></ion-card-title>
       </ion-card-header>
       <ion-item>
-        <ion-label position="floating">Number</ion-label>
+        <ion-label position="floating">Ваш номер:</ion-label>
         <ion-input [imask]="{mask: '+{7}(000)000-00-00'}"></ion-input>
       </ion-item>
       <ion-item class="scode">
-        <ion-label position="floating">Code</ion-label>
+        <ion-label position="floating">Код</ion-label>
         <ion-input type="password"></ion-input>
       </ion-item>
-      <ion-button href="#">Login in</ion-button>
+      <ion-button href="#">Войти</ion-button>
     </ion-card>
     <ion-list lines="none">
       <ion-list-header>

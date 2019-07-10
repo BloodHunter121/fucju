@@ -21,6 +21,8 @@ export class ListPage implements OnInit {
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
+    console.log('test1');
+
     for (let i = 1; i < 7; i++) {
       this.items.push({
         title: 'Item ' + i,

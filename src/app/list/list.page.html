@@ -4,7 +4,7 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+      Стать абонентом
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -15,7 +15,7 @@
         <ion-row color="primary" justify-content-center>
           <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
             <div text-center>
-              <h3>Для того чтобы заказать Sim карту введите данные!</h3>
+              <h3>Для заказа SIM-карты заполните форму</h3>
             </div>
             <div padding>
               <ion-item>
@@ -31,14 +31,14 @@
                 <ion-input  name="text" type="text" placeholder="Адрес доставки" ngModel required></ion-input>
               </ion-item>
               <ion-item>
-                <ion-input  name="text" type="text" placeholder="Скан паспорта" ngModel required></ion-input>                  
+               Фото паспорта&nbsp;<ion-input  name="text" type="file" placeholder="Скан паспорта" ngModel required></ion-input>                  
               </ion-item>
               <ion-item>
                       <ion-textarea placeholder="Комментарий"></ion-textarea>
               </ion-item>
             </div>
             <div padding>
-              <ion-button  size="large" type="submit" [disabled]="form.invalid" expand="block">Заказатть</ion-button>
+              <ion-button  size="large" type="submit" [disabled]="form.invalid" expand="block">Заказать</ion-button>
             </div>
           </ion-col>
         </ion-row>
