@@ -1,0 +1,18 @@
+{
+	"id": 3,
+	"ctn": "+7903-1234567",
+	"payments": [
+		{
+			"id": 1540773,
+			"timestamp": 1520250184,
+			"amount": 560.00,
+			"description": "BeePay (от 2018-03-05)"
+		},
+		{
+			"id": 1530359,
+			"timestamp": 1518088344,
+			"amount": 560.00,
+			"description": "BeePay (от 2018-02-08)"
+		}
+	]
+}
